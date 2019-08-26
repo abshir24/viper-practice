@@ -12,6 +12,8 @@
 		BE04AABB23145703005BE23D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE04AAB923145703005BE23D /* Main.storyboard */; };
 		BE04AABD23145703005BE23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE04AABC23145703005BE23D /* Assets.xcassets */; };
 		BE04AAC023145703005BE23D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE04AABE23145703005BE23D /* LaunchScreen.storyboard */; };
+		BE04AAC8231459F1005BE23D /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04AAC7231459F1005BE23D /* Interactor.swift */; };
+		BE04AACA23145A15005BE23D /* ViewStateFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04AAC923145A15005BE23D /* ViewStateFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BE04AABC23145703005BE23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE04AABF23145703005BE23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE04AAC123145703005BE23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE04AAC7231459F1005BE23D /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		BE04AAC923145A15005BE23D /* ViewStateFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStateFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				BE04AAB523145703005BE23D /* AppDelegate.swift */,
 				BE04AAB723145703005BE23D /* ViewController.swift */,
+				BE04AAC7231459F1005BE23D /* Interactor.swift */,
+				BE04AAC923145A15005BE23D /* ViewStateFactory.swift */,
 				BE04AAB923145703005BE23D /* Main.storyboard */,
 				BE04AABC23145703005BE23D /* Assets.xcassets */,
 				BE04AABE23145703005BE23D /* LaunchScreen.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE04AAC8231459F1005BE23D /* Interactor.swift in Sources */,
+				BE04AACA23145A15005BE23D /* ViewStateFactory.swift in Sources */,
 				BE04AAB823145703005BE23D /* ViewController.swift in Sources */,
 				BE04AAB623145703005BE23D /* AppDelegate.swift in Sources */,
 			);
